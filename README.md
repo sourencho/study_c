@@ -11,7 +11,7 @@ Answers can be found here: http://knking.com/books/c2/answers/index.html
 - Basic Features of C
   - [X] Introducing C
   - [X] C fundamentals
-  - [ ] Formatted Input/Output
+  - [X] Formatted Input/Output
   - [ ] Expression
   - [ ] Selection Statements
   - [ ] Loops
