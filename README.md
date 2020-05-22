@@ -1,6 +1,8 @@
 # c_programming_a_modern_approach
 
-Solutions to the exercises in the book "C Programming: A Modern Approach"
+Solutions to the exercises in the book "C Programming: A Modern Approach (2nd Edition)"
+
+Answers can be found here: http://knking.com/books/c2/answers/index.html
 
 ## Chapters
 
