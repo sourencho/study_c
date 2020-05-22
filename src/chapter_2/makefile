@@ -1,3 +1,5 @@
+CC = gcc
+CFLAGS = -Wall
 objects = exercise_1 exercise_4
 all: $(objects)
 
