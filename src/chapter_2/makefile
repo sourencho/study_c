@@ -1,0 +1,8 @@
+objects = exercise_1 exercise_4
+all: $(objects)
+
+$(objects): %: %.c
+	$(CC) $(CFLAGS) -o $@ $<
+
+clean:
+	rm -rf *.o $(objects)
