@@ -9,9 +9,11 @@ Answers can be found here: http://knking.com/books/c2/answers/index.html
 ## Run
 
 ```bash
-$ cd src/chapter_x
-$ make
-$ ./exercise_x
+cd src/chapter_x
+make
+./exercise_x
+./project_x
+make clean
 ```
 
 ## Chapters
