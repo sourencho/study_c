@@ -6,6 +6,14 @@ Note that some exercises and projects are skipped, as I consider them a waste of
 
 Answers can be found here: http://knking.com/books/c2/answers/index.html
 
+## Run
+
+```bash
+$ cd src/chapter_x
+$ make
+$ ./exercise_x
+```
+
 ## Chapters
 
 - Basic Features of C
@@ -21,7 +29,7 @@ Answers can be found here: http://knking.com/books/c2/answers/index.html
   - [X] Chp 10: Program Organization
 - Advanced Features of C
   - [X] Chp 11: Pointers
-  - [ ] Chp 12: Pointers and Arrays
+  - [X] Chp 12: Pointers and Arrays
   - [ ] Chp 13: Strings
   - [ ] Chp 14: The Preprocessor
   - [ ] Chp 15: Writing Large Programs

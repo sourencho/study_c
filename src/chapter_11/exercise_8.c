@@ -4,8 +4,7 @@
 int *find_largest(int a[], int n);
 
 int main(void) {
-    int a[7] = {10, 5, 6, 1, 30, 8, 21};
-    printf("%d\n", *find_largest(a, 7));
+    printf("%d\n", *find_largest((int []){10, 5, 6, 1, 30, 8, 21}, 7));
 }
 
 int *find_largest(int a[], int n) {
