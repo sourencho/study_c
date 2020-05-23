@@ -32,7 +32,7 @@ make clean
 - Advanced Features of C
   - [X] Chp 11: Pointers
   - [X] Chp 12: Pointers and Arrays
-  - [ ] Chp 13: Strings
+  - [X] Chp 13: Strings
   - [ ] Chp 14: The Preprocessor
   - [ ] Chp 15: Writing Large Programs
   - [ ] Chp 16: Structures, Unions, and Enumerations
