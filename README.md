@@ -9,32 +9,32 @@ Answers can be found here: http://knking.com/books/c2/answers/index.html
 ## Chapters
 
 - Basic Features of C
-  - [X] Introducing C
-  - [X] C fundamentals
-  - [X] Formatted Input/Output
-  - [ ] Expression
-  - [ ] Selection Statements
-  - [ ] Loops
-  - [ ] Basic Types
-  - [ ] Arrays
-  - [ ] Functions
-  - [ ] Program Organization
+  - [X] Chp 1: Introducing C
+  - [X] Chp 2: C fundamentals
+  - [X] Chp 3: Formatted Input/Output
+  - [X] Chp 4: Expression
+  - [X] Chp 5: Selection Statements
+  - [X] Chp 6: Loops
+  - [X] Chp 7: Basic Types
+  - [X] Chp 8: Arrays
+  - [X] Chp 9: Functions
+  - [X] Chp 10: Program Organization
 - Advanced Features of C
-  - [ ] Pointers
-  - [ ] Pointers and Arrays
-  - [ ] Strings
-  - [ ] The Preprocessor
-  - [ ] Writing Large Programs
-  - [ ] Structures, Unions, and Enumerations
-  - [ ] Advanced Uses of Pointers
-  - [ ] Declarations
-  - [ ] Program Design
-  - [ ] Low-Level Programming
+  - [X] Chp 11: Pointers
+  - [ ] Chp 12: Pointers and Arrays
+  - [ ] Chp 13: Strings
+  - [ ] Chp 14: The Preprocessor
+  - [ ] Chp 15: Writing Large Programs
+  - [ ] Chp 16: Structures, Unions, and Enumerations
+  - [ ] Chp 17: Advanced Uses of Pointers
+  - [ ] Chp 18: Declarations
+  - [ ] Chp 19: Program Design
+  - [ ] Chp 20: Low-Level Programming
 - The Standard C Library
-  - [ ] The Standard Library
-  - [ ] Input/Output
-  - [ ] Library Support for Numbers and Character Data
-  - [ ] Error Handling
-  - [ ] International Features
-  - [ ] Miscellaneous Library Functions
-  - [ ] Additionally C99 Support for Mathematics
+  - [ ] Chp 21: The Standard Library
+  - [ ] Chp 22: Input/Output
+  - [ ] Chp 23: Library Support for Numbers and Character Data
+  - [ ] Chp 24: Error Handling
+  - [ ] Chp 25: International Features
+  - [ ] Chp 26: Miscellaneous Library Functions
+  - [ ] Chp 27: Additionally C99 Support for Mathematics
