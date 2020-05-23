@@ -2,7 +2,7 @@
 
 Solutions to the exercises and projects in the book "C Programming: A Modern Approach (2nd Edition)"
 
-Note that some exercises and projects are skipped, as I consider them a waste of time to implement.
+Note that some exercises and projects are skipped.
 
 Answers can be found here: http://knking.com/books/c2/answers/index.html
 
