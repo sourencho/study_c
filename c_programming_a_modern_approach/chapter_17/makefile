@@ -1,6 +1,7 @@
 CC = clang
 CFLAGS = -Wall -g -fsanitize=address -std=c99
-objects = exercise_2
+
+objects = exercise_2 exercise_17
 all: $(objects) exercise_8
 
 $(objects): %: %.c
