@@ -21,8 +21,8 @@ Note that if asan is set up properly then leaks will be detected when you run th
 
 ### Data Structures
 
-- [X] Stack
-- [ ] Linked List
+- [X] stack
+- [ ] linked_list
 
 ## c_programming_a_modern_approach
 
