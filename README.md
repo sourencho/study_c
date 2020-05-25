@@ -8,6 +8,17 @@ Common data structures implemented in C.
 
 Some of these are used in other parts of this repo.
 
+### Run
+
+```bash
+cd data_structures
+make
+./<data_structure>_test
+make clean
+```
+
+Note that if asan is set up properly then leaks will be detected when you run the tests.
+
 ## c_programming_a_modern_approach
 
 Solutions to the exercises and projects in the book "C Programming: A Modern Approach (2nd Edition)".
@@ -21,8 +32,8 @@ Answers can be found here: http://knking.com/books/c2/answers/index.html
 ```bash
 cd c_programming_a_modern_approach/chapter_x
 make
-./exercise_x
-./project_x
+./<exercise_x>
+./<project_x>
 make clean
 ```
 
