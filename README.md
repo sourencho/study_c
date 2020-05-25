@@ -19,6 +19,11 @@ make clean
 
 Note that if asan is set up properly then leaks will be detected when you run the tests.
 
+### Data Structures
+
+- [X] Stack
+- [ ] Linked List
+
 ## c_programming_a_modern_approach
 
 Solutions to the exercises and projects in the book "C Programming: A Modern Approach (2nd Edition)".
