@@ -1,22 +1,32 @@
-# c_programming_a_modern_approach
+# study_c
 
-Solutions to the exercises and projects in the book "C Programming: A Modern Approach (2nd Edition)"
+Code written for the purpose of studying C the pr.gramming language.
+
+## data_structures
+
+Common data structures implemented in C.
+
+Some of these are used in other parts of this repo.
+
+## c_programming_a_modern_approach
+
+Solutions to the exercises and projects in the book "C Programming: A Modern Approach (2nd Edition)".
 
 Note that some exercises and projects are skipped.
 
 Answers can be found here: http://knking.com/books/c2/answers/index.html
 
-## Run
+### Run
 
 ```bash
-cd src/chapter_x
+cd c_programming_a_modern_approach/chapter_x
 make
 ./exercise_x
 ./project_x
 make clean
 ```
 
-## Chapters
+### Chapters
 
 - Basic Features of C
   - [X] Chp 1: Introducing C
