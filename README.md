@@ -12,9 +12,8 @@ Code written for the purpose of studying C the programming language.
 
 ### data_structures
 
-Common data structures implemented in C.
-
-Some of these are used in other parts of this repo.
+- Common data structures implemented in C.
+- Some of these are used in other parts of this repo.
 
 #### Run
 
@@ -25,7 +24,13 @@ make
 make clean
 ```
 
-Note that if asan is set up properly then leaks will be detected when you run the tests.
+Notes:
+- If asan is set up properly then leaks will be detected when you run the tests
+- I think you need to use llvm@8 on macos to get asan working:
+  - ```
+    $ which clang
+    /usr/local/opt/llvm@8/bin/clang
+    ```
 
 #### Data Structures
 
@@ -34,11 +39,9 @@ Note that if asan is set up properly then leaks will be detected when you run th
 
 ### c_programming_a_modern_approach
 
-Solutions to the exercises and projects in the book "C Programming: A Modern Approach (2nd Edition)".
-
-Note that some exercises and projects are skipped.
-
-Answers can be found here: http://knking.com/books/c2/answers/index.html
+- Solutions to the exercises and projects in the book "C Programming: A Modern Approach (2nd Edition)".
+- Some exercises and projects are skipped.
+- Answers can be found here: http://knking.com/books/c2/answers/index.html
 
 #### Run
 
@@ -49,6 +52,9 @@ make
 ./<project_x>
 make clean
 ```
+
+Notes:
+  - Some exercises/projects use the code in `data_structures/`
 
 #### Chapters
 
