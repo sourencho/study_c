@@ -1,6 +1,6 @@
 # study_c
 
-Code written for the purpose of studying C the pr.gramming language.
+Code written for the purpose of studying C the programming language.
 
 ## data_structures
 
