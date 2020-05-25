@@ -1,5 +1,5 @@
 ## Vim
-.swp
+*.swp
 
 ## OSX
 .DS_Store
