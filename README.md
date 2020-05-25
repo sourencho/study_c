@@ -2,13 +2,21 @@
 
 Code written for the purpose of studying C the programming language.
 
-## data_structures
+## Resources
+
+- [Book] Kim N. King: C Programming: A Modern Approach
+- [Book] Peter van der Linden: Expert C Programming, Deep C Secrets
+- [Book] Robert Sedgewick: Algorithms in C, Parts 1-4: Fundamentals, Data Structures, Sorting, Searching: Fundamentals, Data Structures, Sorting, Searching
+
+## Code
+
+### data_structures
 
 Common data structures implemented in C.
 
 Some of these are used in other parts of this repo.
 
-### Run
+#### Run
 
 ```bash
 cd data_structures
@@ -19,12 +27,12 @@ make clean
 
 Note that if asan is set up properly then leaks will be detected when you run the tests.
 
-### Data Structures
+#### Data Structures
 
 - [X] stack
 - [ ] linked_list
 
-## c_programming_a_modern_approach
+### c_programming_a_modern_approach
 
 Solutions to the exercises and projects in the book "C Programming: A Modern Approach (2nd Edition)".
 
@@ -32,7 +40,7 @@ Note that some exercises and projects are skipped.
 
 Answers can be found here: http://knking.com/books/c2/answers/index.html
 
-### Run
+#### Run
 
 ```bash
 cd c_programming_a_modern_approach/chapter_x
@@ -42,7 +50,7 @@ make
 make clean
 ```
 
-### Chapters
+#### Chapters
 
 - Basic Features of C
   - [X] Chp 1: Introducing C
