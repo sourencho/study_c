@@ -77,7 +77,7 @@ Notes:
   - [X] Chp 15: Writing Large Programs
   - [X] Chp 16: Structures, Unions, and Enumerations
   - [X] Chp 17: Advanced Uses of Pointers
-  - [ ] Chp 18: Declarations
+  - [X] Chp 18: Declarations
   - [ ] Chp 19: Program Design
   - [ ] Chp 20: Low-Level Programming
 - The Standard C Library

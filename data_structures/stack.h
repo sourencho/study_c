@@ -6,37 +6,16 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-struct stack {
-    int value;
-    struct stack *next;
-};
+typedef int Item;
 
-/**
- * Empties stack.
- * Deallocates all node data.
- */
-void make_empty(struct stack **top);
+typedef struct stack_type *Stack;
 
-/**
- * Returns true if stack is empty.
- */
-int is_empty(struct stack **top);
-
-/**
- * Push onto the stack and update top.
- * Returns false if couldn't allocate memory.
- */
-bool push(struct stack **top, int v);
-
-/**
- * Pop off the stack and update top.
- * Deallocates node data.
- */
-int pop(struct stack **top);
-
-/**
- * Returns size of stack.
- */
-size_t size(struct stack **top);
+Stack stack__create(void);
+void stack__destroy(Stack s);
+void stack__make_empty(Stack s);
+bool stack__is_empty(Stack s);
+size_t stack__size(Stack s);
+bool stack__push(Stack s, Item v);
+Item stack__pop(Stack s);
 
 #endif  // DATA_STRUCTURES_STACK_H_

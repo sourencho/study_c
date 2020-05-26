@@ -4,26 +4,27 @@
 #include "stack.h"
 
 int main(void) {
-    struct stack s = {};
-    struct stack *top = &s;
+    Stack s = stack__create();
 
     // push, size, !is_empty
-    assert(push(&top, 4) == true);
-    assert(size(&top) == 1);
-    assert(is_empty(&top) == false);
+    assert(stack__push(s, 4) == true);
+    assert(stack__size(s) == 1);
+    assert(stack__is_empty(s) == false);
     
     // pop, size, is_empty
-    assert(pop(&top) == 4);
-    assert(size(&top) == 0);
-    assert(is_empty(&top) == true);
+    assert(stack__pop(s) == 4);
+    assert(stack__size(s) == 0);
+    assert(stack__is_empty(s) == true);
 
     // push, size, make_empty, is_empty
-    assert(push(&top, 4) == true);
-    assert(push(&top, 5) == true);
-    assert(size(&top) == 2);
-    make_empty(&top);
-    assert(size(&top) == 0);
-    assert(is_empty(&top) == true);
+    assert(stack__push(s, 4) == true);
+    assert(stack__push(s, 5) == true);
+    assert(stack__size(s) == 2);
+    stack__make_empty(s);
+    assert(stack__size(s) == 0);
+    assert(stack__is_empty(s) == true);
+
+    stack__destroy(s);
 
     printf("Done without errors.\n");
 }

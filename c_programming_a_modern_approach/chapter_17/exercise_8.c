@@ -3,8 +3,7 @@
 #include "../../data_structures/stack.h"
 
 int main(void) {
-    struct stack s = {};
-    struct stack *top = &s;
-    assert(is_empty(&top));
+    Stack s = stack__create();
+    assert(stack__is_empty(s));
     printf("Implemented in \"data_structures/stack.h\".\n");
 }

@@ -1,56 +1,83 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <assert.h>
+
 #include "stack.h"
 
-void make_empty(struct stack **top) {
-    while(!is_empty(top)) {
-        pop(top); 
-    }
+struct node {
+    Item data;
+    struct node *next;
 };
 
-int is_empty(struct stack **top) {
-    return size(top) == 0;
+struct stack_type {
+    struct node *top;
+};
+
+Stack stack__create(void) {
+    Stack s = malloc(sizeof(struct stack_type));
+    assert(s != NULL);
+    s->top = NULL;
+    return s;
 }
 
-bool push(struct stack **top, int v) {
+void stack__destroy(Stack s) {
+    stack__make_empty(s);
+    free(s);
+}
+
+void stack__make_empty(Stack s) {
+    while(!stack__is_empty(s)) {
+        stack__pop(s); 
+    }
+}
+
+bool stack__is_empty(Stack s) {
+    return stack__size(s) == 0;
+}
+
+size_t stack__size(Stack s) {
+    struct node *n = s->top;
+    if (n == NULL) {
+        return 0;
+    }
+
+    size_t count = 1;
+    while(n->next != NULL) {
+        count++;
+        n = n->next;
+    }
+    return count;
+}
+
+bool stack__push(Stack s, Item v) {
     // Allocate
-    struct stack *new_node;
-    new_node = malloc(sizeof(struct stack));
+    struct node *new_node  = malloc(sizeof(struct node));
     if(new_node == NULL) {
         return false;
     }
 
     // Populate
-    new_node->value = v;
-    new_node->next = *top;
+    new_node->data = v;
+    new_node->next = s->top;
 
     // Swap top
-    *top = new_node;
+    s->top = new_node;
 
     return true;
 }
 
-int pop(struct stack **top) {
-    if (is_empty(top)) {
+int stack__pop(Stack s) {
+    if (stack__is_empty(s)) {
         printf("*** Stack underflow; program terminated. ***\n");
         exit(EXIT_FAILURE);
     }
 
-    struct stack *temp = *top;
-    int out = (*top)->value;
-    *top = (*top)->next;
-    free(temp);
+    struct node *old_top = s->top;
+    Item out = old_top->data;
+    s->top = old_top->next;
+    free(old_top);
 
     return out;
 }
 
-size_t size(struct stack **top) {
-    size_t count = 0;
-    struct stack *p = *top;
-    while(p->next != NULL) {
-        count++;
-        p = p->next;
-    }
-    return count;
-}
