@@ -45,7 +45,6 @@ Notes:
 - Solutions to the exercises and projects in the book "C Programming: A Modern Approach (2nd Edition)".
 - Some exercises and projects are skipped.
 - Answers can be found here: http://knking.com/books/c2/answers/index.html
-
 - Chapters:
     - Basic Features of C
         - [X] Chp 1: Introducing C
