@@ -13,7 +13,7 @@ Code written for the purpose of studying C the programming language.
 ### projects
 
 - Small projects implemented in C
-    - [cnake](projects/cnake/): Snake terminal clone written in C99 with ncurses
+    - [cnake](https://github.com/SourenP/cnake): Snake terminal clone written in C99 with ncurses
 
 ### data_structures
 
