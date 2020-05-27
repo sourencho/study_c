@@ -8,14 +8,12 @@ Code written for the purpose of studying C the programming language.
 - [Book] Peter van der Linden: Expert C Programming, Deep C Secrets
 - [Book] Robert Sedgewick: Algorithms in C, Parts 1-4: Fundamentals, Data Structures, Sorting, Searching: Fundamentals, Data Structures, Sorting, Searching
 
-## Code
-
-### projects
+## Projects
 
 - Small projects implemented in C
     - [cnake](https://github.com/SourenP/cnake): Snake terminal clone written in C99 with ncurses
 
-### data_structures
+## Data_structures
 
 - Common data structures implemented in C
     - [X] stack
@@ -40,7 +38,7 @@ Notes:
     ```
 
 
-### c_programming_a_modern_approach
+## C Programming: A Modern Approach
 
 - Solutions to the exercises and projects in the book "C Programming: A Modern Approach (2nd Edition)".
 - Some exercises and projects are skipped.
