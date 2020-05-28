@@ -68,7 +68,7 @@ Notes:
         - [X] [Chp 13: Strings](c_programming_a_modern_approach/chapter_13)
         - [X] Chp 14: The Preprocessor
         - [X] Chp 15: Writing Large Programs
-        - [X] [Chp 16: Structures, Unions, and Enumerations]c_programming_a_modern_approach/chapter_16)
+        - [X] [Chp 16: Structures, Unions, and Enumerations](c_programming_a_modern_approach/chapter_16)
         - [X] [Chp 17: Advanced Uses of Pointers](c_programming_a_modern_approach/chapter_17)
         - [X] Chp 18: Declarations
         - [X] Chp 19: Program Design
