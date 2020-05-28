@@ -1,0 +1,10 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 80
+---
+Language: Cpp
+IndentCaseLabels: true
+NamespaceIndentation: All
+AllowShortFunctionsOnASingleLine: false
+BreakConstructorInitializers: AfterColon
+---

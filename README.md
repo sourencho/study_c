@@ -22,7 +22,7 @@ Code written for the purpose of studying C the programming language.
 
 - Common data structures implemented in C
     - [X] [stack](data_structures/stack.c)
-    - [ ] linked_list
+    - [X] [priority_queue](data_structures/priority_queue.c)
 
 
 #### Run
