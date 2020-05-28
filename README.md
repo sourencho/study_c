@@ -16,7 +16,8 @@ Code written for the purpose of studying C the programming language.
 ## Problems
 
 - Programming problems/challenges implemented in C
-  - [advent_of_code](https://github.com/SourenP/advent_of_code): Solutions to Advent Of Code 2019 problems.
+  - [advent_of_code 2019](https://github.com/SourenP/advent_of_code/tree/master/2019): Solutions to Advent Of Code 2019 problems.
+  - [leetcode 30 day challenge](https://github.com/SourenP/leetcode/tree/master/30_day_challenge/solutions_c): Solutions to Leetcode April 2020 30 Day Challenge
 
 ## Data structures
 
