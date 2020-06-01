@@ -15,3 +15,4 @@ void vector__clear(Vector *v);
 void vector__push(Vector *v, Item i);
 Item vector__get(Vector *v, size_t i);
 size_t vector__capacity(Vector *v);
+void vector__map(Vector *v, void (*map)(Item *));

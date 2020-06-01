@@ -44,3 +44,10 @@ Item vector__get(Vector *v, size_t i) {
 size_t vector__capacity(Vector *v) {
     return v->capacity;
 }
+
+void vector__map(Vector *v, void (*map)(Item *)) {
+    for (int i = 0; i < v->size; i++) {
+        Item *item = &(v->items[i]);
+        (*map)(item);
+    }
+}
