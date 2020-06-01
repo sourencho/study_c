@@ -24,6 +24,7 @@ Code written for the purpose of studying C the programming language.
 - Common data structures implemented in C
     - [X] [stack](data_structures/stack.c)
     - [X] [priority_queue](data_structures/priority_queue.c)
+    - [X] [vector](data_structures/vector.c)
     - [ ] map
 
 
