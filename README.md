@@ -10,8 +10,9 @@ Code written for the purpose of studying C the programming language.
 
 ## Projects
 
-- Small projects implemented in C
-    - [cnake](https://github.com/SourenP/cnake): Snake terminal clone written in C99 with ncurses
+- Projects implemented in C
+    - [cnake](https://github.com/SourenP/cnake): Terminal snake written in C that uses a custom memory allocator
+    - [hisho](https://github.com/SourenP/cnake): A memory allocator in C99 written for learning purposes.
 
 ## Problems
 
