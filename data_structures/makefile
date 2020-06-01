@@ -1,7 +1,17 @@
 CC = clang
 CFLAGS = -Wall -g -fsanitize=address -std=c99
 
-all: stack_test priority_queue_test vector_test
+all: stack_test priority_queue_test vector_test dag_test
+
+dag_test: dag_test.o dag.o
+	$(CC) $(CFLAGS) -o dag_test dag_test.o dag.o stack.o
+
+dag_test.o: dag_test.c dag.h
+	$(CC) $(CFLAGS) -c dag_test.c
+
+dag.o: dag.c dag.h stack.c stack.h
+	$(CC) $(CFLAGS) -c dag.c
+
 
 vector_test: vector_test.o vector.o
 	$(CC) $(CFLAGS) -o vector_test vector_test.o vector.o item.o
@@ -34,4 +44,4 @@ item.o: item.c item.h
 	$(CC) $(CFLAGS) -c item.c
 
 clean:
-	rm -rf *.o stack_test priority_queue_test vector_test
+	rm -rf *.o stack_test priority_queue_test vector_test dag_test
