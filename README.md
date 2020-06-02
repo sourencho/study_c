@@ -4,9 +4,12 @@ Code written for the purpose of studying C the programming language.
 
 ## Resources
 
-- [Book] Kim N. King: C Programming: A Modern Approach
-- [Book] Peter van der Linden: Expert C Programming, Deep C Secrets
-- [Book] Robert Sedgewick: Algorithms in C, Parts 1-4: Fundamentals, Data Structures, Sorting, Searching: Fundamentals, Data Structures, Sorting, Searching
+- Books
+  - Kim N. King: C Programming: A Modern Approach
+  - Peter van der Linden: Expert C Programming, Deep C Secrets.
+  - Robert Sedgewick: Algorithms in C, Parts 1-4: Fundamentals, Data Structures, Sorting, Searching: Fundamentals, Data Structures, Sorting, Searching
+- Articles
+  - [How to C in 2016](https://matt.sh/howto-c)
 
 ## Projects
 
@@ -28,7 +31,9 @@ Code written for the purpose of studying C the programming language.
     - [X] [vector](data_structures/vector.c)
     - [X] [dag][data_structures/dag.c]
     - [X] [map][data_structures/map.c]
-
+    - [ ] tri
+    - [ ] double ended queue as a ring buffer
+    - [ ] quadtree (octree)
 
 #### Run
 
