@@ -29,8 +29,8 @@ Code written for the purpose of studying C the programming language.
     - [X] [stack](data_structures/stack.c)
     - [X] [priority_queue](data_structures/priority_queue.c)
     - [X] [vector](data_structures/vector.c)
-    - [X] [dag][data_structures/dag.c]
-    - [X] [map][data_structures/map.c]
+    - [X] [dag](data_structures/dag.c)
+    - [X] [map](data_structures/map.c)
     - [ ] tri
     - [ ] double ended queue as a ring buffer
     - [ ] quadtree (octree)
