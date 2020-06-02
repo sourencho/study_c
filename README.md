@@ -30,7 +30,9 @@ Code written for the purpose of studying C the programming language.
     - [X] [priority_queue](data_structures/priority_queue.c)
     - [X] [vector](data_structures/vector.c)
     - [X] [dag](data_structures/dag.c)
-
+    - [ ] tri
+    - [ ] double ended queue as a ring buffer
+    - [ ] quadtree (octree)
 
 #### Run
 
