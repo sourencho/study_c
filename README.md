@@ -27,6 +27,7 @@ Code written for the purpose of studying C the programming language.
     - [X] [priority_queue](data_structures/priority_queue.c)
     - [X] [vector](data_structures/vector.c)
     - [X] [dag][data_structures/dag.c]
+    - [X] [map][data_structures/map.c]
 
 
 #### Run
