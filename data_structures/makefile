@@ -61,4 +61,4 @@ item.o: item.c item.h
 	$(CC) $(CFLAGS) -c item.c
 
 clean:
-	rm -rf *.o stack_test priority_queue_test vector_test dag_test map_test
+	rm -rf *.o stack_test priority_queue_test vector_test dag_test map_test trie_test
