@@ -10,6 +10,7 @@ Code written for the purpose of studying C the programming language.
   - Robert Sedgewick: Algorithms in C, Parts 1-4: Fundamentals, Data Structures, Sorting, Searching: Fundamentals, Data Structures, Sorting, Searching
 - Articles
   - [How to C in 2016](https://matt.sh/howto-c)
+  - [C FAQ](http://c-faq.com/)
 
 ## Projects
 
@@ -31,9 +32,10 @@ Code written for the purpose of studying C the programming language.
     - [X] [vector](data_structures/vector.c)
     - [X] [dag](data_structures/dag.c)
     - [X] [map](data_structures/map.c)
-    - [ ] tri
-    - [ ] double ended queue as a ring buffer
-    - [ ] quadtree (octree)
+    - [X] trie
+      - [ ] Fix remove
+    - [ ] Double ended queue as a ring buffer
+    - [ ] Quadtree (Octree)
 
 #### Run
 
