@@ -32,7 +32,7 @@ Code written for the purpose of studying C the programming language.
     - [X] [vector](data_structures/vector.c)
     - [X] [dag](data_structures/dag.c)
     - [X] [map](data_structures/map.c)
-    - [X] trie
+    - [X] [trie](data_structures/trie.c)
       - [ ] Fix remove
     - [ ] Double ended queue as a ring buffer
     - [ ] Quadtree (Octree)
