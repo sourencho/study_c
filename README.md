@@ -11,6 +11,8 @@ Code written for the purpose of studying C the programming language.
 - Articles
   - [How to C in 2016](https://matt.sh/howto-c)
   - [C FAQ](http://c-faq.com/)
+- Slides
+  - [Programming in C - Lecture 6: The Memory Hierarchy and Cache Optimization](https://www.cl.cam.ac.uk/teaching/1718/ProgC/lectures/lecture6.pdf)
 
 ## Projects
 
