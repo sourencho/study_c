@@ -1,7 +1,16 @@
 CC = clang
 CFLAGS = -Wall -g -fsanitize=address -std=c99
 
-all: stack_test priority_queue_test vector_test dag_test map_test trie_test
+all: stack_test priority_queue_test vector_test dag_test map_test trie_test circular_buffer_test
+
+circular_buffer_test: circular_buffer_test.o circular_buffer.o
+	$(CC) $(CFLAGS) -o circular_buffer_test circular_buffer_test.o circular_buffer.o
+
+circular_buffer_test.o: circular_buffer_test.c circular_buffer.h
+	$(CC) $(CFLAGS) -c circular_buffer_test.c
+
+circular_buffer.o: circular_buffer.c circular_buffer.h
+	$(CC) $(CFLAGS) -c circular_buffer.c
 
 trie_test: trie_test.o trie.o
 	$(CC) $(CFLAGS) -o trie_test trie_test.o trie.o
@@ -61,4 +70,4 @@ item.o: item.c item.h
 	$(CC) $(CFLAGS) -c item.c
 
 clean:
-	rm -rf *.o stack_test priority_queue_test vector_test dag_test map_test trie_test
+	rm -rf *.o stack_test priority_queue_test vector_test dag_test map_test trie_test circular_buffer_test
