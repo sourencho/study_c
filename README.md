@@ -5,6 +5,7 @@ Code written for the purpose of studying C the programming language.
 ## Resources
 
 - Books
+  - K&R: The C Programming Language. 2nd Edition
   - Kim N. King: C Programming: A Modern Approach
   - Peter van der Linden: Expert C Programming, Deep C Secrets.
   - Robert Sedgewick: Algorithms in C, Parts 1-4: Fundamentals, Data Structures, Sorting, Searching: Fundamentals, Data Structures, Sorting, Searching
