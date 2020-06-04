@@ -11,6 +11,8 @@ Code written for the purpose of studying C the programming language.
 - Articles
   - [How to C in 2016](https://matt.sh/howto-c)
   - [C FAQ](http://c-faq.com/)
+- Slides
+  - [Programming in C - Lecture 6: The Memory Hierarchy and Cache Optimization](https://www.cl.cam.ac.uk/teaching/1718/ProgC/lectures/lecture6.pdf)
 
 ## Projects
 
@@ -32,7 +34,7 @@ Code written for the purpose of studying C the programming language.
     - [X] [vector](data_structures/vector.c)
     - [X] [dag](data_structures/dag.c)
     - [X] [map](data_structures/map.c)
-    - [X] trie
+    - [X] [trie](data_structures/trie.c)
       - [ ] Fix remove
     - [X] [circlular buffer (dynamic)](data_structures/circular_buffer.c)
     - [ ] Double ended queue as a ring buffer
