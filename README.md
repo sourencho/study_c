@@ -37,9 +37,9 @@ Code written for the purpose of studying C the programming language.
     - [X] [map](data_structures/map.c)
     - [X] [trie](data_structures/trie.c)
       - [ ] Fix remove
-    - [X] [circlular buffer (dynamic)](data_structures/circular_buffer.c)
-    - [ ] Double ended queue as a ring buffer
-    - [ ] Quadtree (Octree)
+    - [X] [circlular buffer](data_structures/circular_buffer.c)
+    - [X] [deque](data_structures/deque.c)
+    - [ ] quadtree
 
 #### Run
 

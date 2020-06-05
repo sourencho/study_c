@@ -4,7 +4,7 @@
 
 int main() {
     uint32_t init_cap = 7;
-    CircularBuffer *cb = cb__create(7);
+    CircularBuffer *cb = cb__create(init_cap);
 
     assert(cb__is_empty(cb) == true);
 
