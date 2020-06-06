@@ -43,20 +43,27 @@ Code written for the purpose of studying C the programming language.
 
 #### Run
 
-```bash
+```
 cd data_structures
-make
-./<data_structure>_test
-make clean
+make <data_structure>_test
+ASAN_OPTIONS=detect_leaks=1 ./<data_structure>_test
 ```
 
-Notes:
-- If asan is set up properly then leaks will be detected when you run the tests
-- I think you need to use llvm@8 on macos to get asan working:
-  - ```
-    $ which clang
-    /usr/local/opt/llvm@8/bin/clang
-    ```
+## Algorithms
+
+- Common algorithms implemented in C
+  - Search
+    - [X] [binary search](algorithms/binary_search.c)
+  - Sort
+    - [ ] merge sort
+
+#### Run
+
+```
+cd algorithms
+make <algorithm>_test
+ASAN_OPTIONS=detect_leaks=1 ./<algorithm>_test
+```
 
 ## Books
 
@@ -100,7 +107,7 @@ Notes:
 #### Run
 
 ```bash
-cd c_programming_a_modern_approach/chapter_x
+cd books/c_programming_a_modern_approach/chapter_x
 make
 ./<exercise_x>
 ./<project_x>
