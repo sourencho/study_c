@@ -36,9 +36,13 @@ Code written for the purpose of studying C the programming language.
     - [X] [dag](data_structures/dag.c)
     - [X] [map](data_structures/map.c)
     - [X] [trie](data_structures/trie.c)
-      - [ ] Fix remove
+      - [ ] fix remove
     - [X] [circlular buffer](data_structures/circular_buffer.c)
     - [X] [deque](data_structures/deque.c)
+    - [X] [binary search tree](data_structures/bst.c)
+      - [ ] add select
+      - [ ] add partition
+      - [ ] add delete
     - [ ] quadtree
 
 #### Run
