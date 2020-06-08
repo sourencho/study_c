@@ -30,6 +30,7 @@ Code written for the purpose of studying C the programming language.
 ## Data structures
 
 - Common data structures implemented in C
+    - [x] [doubly linked list](data_structures/doubly_linked_list.c)
     - [X] [stack](data_structures/stack.c)
     - [X] [priority_queue](data_structures/priority_queue.c)
     - [X] [vector](data_structures/vector.c)
