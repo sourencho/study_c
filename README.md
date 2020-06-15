@@ -44,7 +44,8 @@ Code written for the purpose of studying C the programming language.
       - [ ] add select
       - [ ] add partition
       - [ ] add delete
-    - [ ] quadtree
+    - [X] [quadtree](data_structures/quadtree.c)
+      - [ ] query range
 
 #### Run
 

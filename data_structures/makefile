@@ -1,7 +1,16 @@
 CC = clang
 CFLAGS = -Wall -g -fsanitize=address -std=c99
 
-all: stack_test priority_queue_test vector_test dag_test map_test trie_test circular_buffer_test deque_test bst_test doubly_linked_list_test
+all: stack_test priority_queue_test vector_test dag_test map_test trie_test circular_buffer_test deque_test bst_test doubly_linked_list_test quadtree_test
+
+quadtree_test: quadtree_test.o quadtree.o
+	$(CC) $(CFLAGS) -o quadtree_test quadtree_test.o quadtree.o
+
+quadtree_test.o: quadtree_test.c quadtree.h
+	$(CC) $(CFLAGS) -c quadtree_test.c
+
+quadtree.o: quadtree.c quadtree.h
+	$(CC) $(CFLAGS) -c quadtree.c
 
 doubly_linked_list_test: doubly_linked_list_test.o doubly_linked_list.o
 	$(CC) $(CFLAGS) -o doubly_linked_list_test doubly_linked_list_test.o doubly_linked_list.o
@@ -97,4 +106,4 @@ item.o: item.c item.h
 	$(CC) $(CFLAGS) -c item.c
 
 clean:
-	rm -rf *.o stack_test priority_queue_test vector_test dag_test map_test trie_test circular_buffer_test deque_test bst_test doubly_linked_list_test
+	rm -rf *.o stack_test priority_queue_test vector_test dag_test map_test trie_test circular_buffer_test deque_test bst_test doubly_linked_list_test quadtree_test
