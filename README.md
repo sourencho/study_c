@@ -41,11 +41,12 @@ Code written for the purpose of studying C the programming language.
     - [X] [circlular buffer](data_structures/circular_buffer.c)
     - [X] [deque](data_structures/deque.c)
     - [X] [binary search tree](data_structures/bst.c)
-      - [ ] add select
-      - [ ] add partition
-      - [ ] add delete
+      - [ ] select
+      - [ ] partition
+      - [ ] delete
     - [X] [quadtree](data_structures/quadtree.c)
       - [ ] query range
+      - [ ] remove
 
 #### Run
 
