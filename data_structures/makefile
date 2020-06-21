@@ -1,7 +1,18 @@
 CC = clang
-CFLAGS = -Wall -g -fsanitize=address -std=c99
+CFLAGS = -Wall -g -fsanitize=address -std=c99 -Wno-missing-braces
 
-all: stack_test priority_queue_test vector_test dag_test map_test trie_test circular_buffer_test deque_test bst_test doubly_linked_list_test quadtree_test
+OBJS = stack_test priority_queue_test vector_test dag_test map_test trie_test circular_buffer_test deque_test bst_test doubly_linked_list_test quadtree_test database_test
+
+all: $(OBJS)
+
+database_test: database_test.o database.o
+	$(CC) $(CFLAGS) -o database_test database_test.o database.o
+
+database_test.o: database_test.c database.h
+	$(CC) $(CFLAGS) -c database_test.c
+
+database.o: database.c database.h
+	$(CC) $(CFLAGS) -c database.c
 
 quadtree_test: quadtree_test.o quadtree.o
 	$(CC) $(CFLAGS) -o quadtree_test quadtree_test.o quadtree.o
@@ -106,4 +117,4 @@ item.o: item.c item.h
 	$(CC) $(CFLAGS) -c item.c
 
 clean:
-	rm -rf *.o stack_test priority_queue_test vector_test dag_test map_test trie_test circular_buffer_test deque_test bst_test doubly_linked_list_test quadtree_test
+	rm -rf *.o $(OBJS)

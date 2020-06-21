@@ -47,6 +47,7 @@ Code written for the purpose of studying C the programming language.
     - [X] [quadtree](data_structures/quadtree.c)
       - [ ] query range
       - [ ] remove
+    - [X] [database](data_structures/database.c)
 
 #### Run
 
